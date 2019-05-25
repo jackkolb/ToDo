@@ -47,14 +47,14 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         retrieve_tasks()
         sys.exit() 
-    command = sys.argv[1]
+    command = sys.argv[1].lower()
     valid_commands = ["new", "add", "done", "remove"]
     if command not in valid_commands:
-        print("A valid command is required: add, done")
+        print("A valid command is required: add, remove")
         retrieve_tasks()
 
-    if command == "new" or command == "add":
+    if command == "new" or command == "add" or command == "a":
         new_task()
-    if command == "done" or command == "remove":
+    if command == "done" or command == "remove" or command == "r":
         remove_task()
     sys.exit()
