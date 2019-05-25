@@ -34,5 +34,7 @@ I recommend making this into a symlink so you can access it anywhere with ```tod
 ```sudo link [location of this folder]/todo.sh /usr/bin/todo```
 
 Alternative commands are a bit faster to use, and convenient for your fingers:
+
 add, 'a':    `$> todo a some task`
+
 remove, 'r': `$> todo r task`
