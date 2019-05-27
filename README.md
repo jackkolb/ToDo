@@ -1,6 +1,6 @@
 # ToDo: a SUPER simple todo list manager
 
-This project comes from my need for a basic todo list tracker, for me to easily add items, remove them, and display them through only a few keyboard presses.
+This project comes from my need for a basic todo list tracker, to easily add items, remove them, and display them through only a few keyboard presses.
 
 Hence... ToDo. 
 
