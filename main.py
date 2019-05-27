@@ -19,7 +19,7 @@ def retrieve_tasks():
     with open(dir_path + "tasks", "r") as tasks_file:
         lines = tasks_file.readlines()
         for line in lines:
-            print(line[:-1])
+            print(" - " + line[:-1])
     return
 
 
